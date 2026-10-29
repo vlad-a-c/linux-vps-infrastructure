@@ -4,7 +4,7 @@ This is a high-level inventory of services discussed for the personal VPS. It re
 
 | Component | Known role | How it has been managed |
 | --- | --- | --- |
-| Ubuntu Server 22.04 LTS | VPS operating system | SSH-based administration |
+| Ubuntu Server 24.04 LTS | VPS operating system | SSH-based administration |
 | ISPConfig | Hosting control panel | Web interface for websites, DNS records, and hosting settings |
 | Web service | Serves hosted websites | Hosting configuration through ISPConfig; no claim of manual Nginx configuration |
 | DNS service | Serves configured DNS zones | DNS records entered through ISPConfig; no manual BIND zone-file edits |
