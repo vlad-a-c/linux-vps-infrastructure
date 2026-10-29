@@ -5,7 +5,7 @@ This page describes the VPS at a high level using only details confirmed by the 
 ## Host
 
 - VPS provider: SSD Nodes
-- Operating system: Ubuntu Server 22.04 LTS
+- Operating system: Ubuntu Server 24.04 LTS
 - Resources: 4 vCPU, 16 GB RAM, 320 GB SSD
 - Remote administration: SSH
 
