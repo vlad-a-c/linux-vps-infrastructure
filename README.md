@@ -7,17 +7,17 @@ Sanitized notes about administering my personal Ubuntu Server 22.04 LTS VPS. Thi
 - VPS: 4 vCPU, 16 GB RAM, 320 GB SSD
 - Operating system: Ubuntu Server 22.04 LTS
 - Hosting panel: ISPConfig
-- Web hosting and DNS managed through ISPConfig
+- Web hosting and DNS managed through the ISPConfig interface
 - Hosted services have included TeamTalk and AzuraCast
 
 ## Hands-on work
 
 - Managing websites and DNS records through ISPConfig
-- Working with Nginx and Let's Encrypt certificates
-- Connecting through SSH and troubleshooting service, DNS, and certificate issues
+- Managing hosting settings and Let's Encrypt certificates through ISPConfig
+- Connecting through SSH and investigating service, DNS, and certificate issues
 - Maintaining applications hosted on a personal VPS
 
-ISPConfig installs and manages parts of the web and DNS stack. My role is administering those services.
+All DNS and hosting configuration described here was done through the ISPConfig panel. I have not manually edited BIND or Postfix configuration files. The underlying services may be installed or configured by ISPConfig, but I do not claim direct configuration of those services.
 
 ## Currently learning
 
@@ -26,7 +26,7 @@ UFW configuration, SSH hardening, backups, monitoring, and repeatable operationa
 ## Documentation roadmap
 
 - Architecture and service inventory
-- Anonymized DNS and TLS examples
+- Anonymized examples of DNS records and TLS settings as configured in ISPConfig
 - Troubleshooting case studies with symptoms, checks, and resolutions
 - Security improvements documented after they are applied and verified
 
