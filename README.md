@@ -1,11 +1,11 @@
 # Linux VPS Infrastructure
 
-Sanitized notes about administering my personal Ubuntu Server 22.04 LTS VPS. This repository documents hands-on hosting and troubleshooting experience relevant to Junior Linux/System Administration roles.
+Sanitized notes about administering my personal Ubuntu Server 24.04 LTS VPS. This repository documents hands-on hosting and troubleshooting experience relevant to Junior Linux/System Administration roles.
 
 ## Environment
 
 - VPS: 4 vCPU, 16 GB RAM, 320 GB SSD
-- Operating system: Ubuntu Server 22.04 LTS
+- Operating system: Ubuntu Server 24.04 LTS
 - Hosting panel: ISPConfig
 - Web hosting and DNS managed through the ISPConfig interface
 - Hosted services have included TeamTalk and AzuraCast
