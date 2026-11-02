@@ -4,7 +4,7 @@ This case study describes how I host TeamTalk on my personal Ubuntu VPS. It is a
 
 ## Installation and configuration
 
-I installed the TeamTalk server from its official archive under a dedicated `tt5` user and group. The server executable is shared at `/home/tt5/tt5srv`. I used TeamTalk's setup wizard to create the XML configuration for each instance, then chose and checked the settings. These included listening ports, channels, administrator accounts with full rights, and default user accounts with limited permissions. The real XML files are not published because they contain account details and other operational settings.
+I installed the TeamTalk server from its official archive under a dedicated `tt5` user and group. The server executable is shared at `/home/tt5/tt5srv`. For each instance, I first created its directory manually with `mkdir`. I then ran TeamTalk's setup wizard with `-wd` pointing to that directory, so the wizard wrote its `tt5srv.xml` there. I chose and checked the settings in the wizard. These included listening ports, channels, administrator accounts with full rights, and default user accounts with limited permissions. The real XML files are not published because they contain account details and other operational settings.
 
 ## Multiple instances with systemd
 
